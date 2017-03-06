@@ -20,6 +20,8 @@ class Clock extends React.Component {
         this.setState((prevState, props) => ({ count: prevState.count + 1 }));
     }
     setToNull(){
+
+        
         console.log("set to null, [this] ", this);
         this.setState({ count: 0 });
     }
